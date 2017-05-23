@@ -1,0 +1,424 @@
+[
+	{
+		"id": "1",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 100,
+		"so_sao": "4",
+		"hinh_dai_dien": "img/vinh_ha_long.jpg",
+		"arr_hinh": [
+			"img/vinh_ha_long1.jpg",
+			"img/vinh_ha_long2.jpg",
+			"img/vinh_ha_long3.jpg",
+			"img/vinh_ha_long4.jpg",
+			"img/vinh_ha_long5.jpg"
+		],
+		"vi_tri_dia_ly": "Quảng Ninh",
+		"loai_dia_hinh": [
+			"Hang động"
+		],
+		"doi_tuong": [
+			"Độc thân",
+			"Bạn bè",
+			"Gia đình"
+		],
+		"mo_ta": "Vịnh Hạ Long – được Unesco nhiều lần công nhận là di sản thiên nhiên của thế giới với hàng nghìn hòn đảo được làm nên bởi tạo hoá kỳ vĩ và sống động. Vịnh Hạ Long có phong cảnh tuyệt đẹp nên nơi đây là một điểm du lịch rất hấp dẫn với du khách trong nước và quốc tế. Vịnh Hạ Long là một di sản độc đáo bởi địa danh này chứa đựng những dấu tích quan trọng trong quá trình hình thành và phát triển lịch sử trái đất, là cái nôi cư trú của người Việt cổ, đồng thời là tác phẩm nghệ thuật tạo hình vĩ đại của thiên nhiên với sự hiện diện của hàng nghìn đảo đá muôn hình vạn trạng, với nhiều hang động kỳ thú quần tụ thành một thế giới vừa sinh động vừa huyền bí. Bên cạnh đó, vịnh Hạ Long còn là nơi tập trung đa dạng sinh học cao với những hệ sinh thái điển hình cùng với hàng nghìn loài động thực vật vô cùng phong phú, đa dạng. Nơi đây còn gắn liền với những giá trị văn hóa – lịch sử hào hùng của dân tộc. Vịnh Hạ Long nổi bật với hệ thống đảo đá và hang động tuyệt đẹp. Đảo ở Hạ Long có hai dạng là đảo đá vôi và đảo phiến thạch, tập trung ở hai vùng chính là vùng phía đông nam vịnh Bái Tử Long và vùng phía tây nam vịnh Hạ Long. Đây là hình ảnh cổ xưa nhất của địa hình có tuổi kiến tạo địa chất từ 250 – 280 triệu năm, là kết quả của quá trình vận động nâng lên, hạ xuống nhiều lần từ lục địa thành trũng biển. Quá trình Carxto bào mòn, phong hoá gần như hoàn toàn tạo ra một Hạ Long độc nhất vô nhị trên thế giới. Hàng trăm đảo đá, mỗi đảo mang một hình dáng khác nhau hết sức sinh động: hòn Đầu Người, hòn Rồng, hòn Lã Vọng, hòn Cánh Buồm, hòn Trống Mái, hòn Lư Hương… Tiềm ẩn trong lòng các đảo đá ấy là những hang động tuyệt đẹp gắn với nhiều truyền thuyết thần kỳ như động Thiên Cung, hang Đầu Gỗ, động Sửng Sốt, hang Trinh Nữ, động Tam Cung… Đó thực sự là những lâu đài của tạo hoá giữa chốn trần gian. Từ xưa, Hạ Long đã được đại thi hào dân tộc Nguyễn Trãi mệnh danh là “kỳ quan đất dựng giữa trời cao”.",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user1.jpg",
+				"tieu_de": "Vịnh Hạ Long là một nơi tuyệt đẹp",
+				"noi_dung": "",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "NVNam"
+			},
+			{
+				"hinh_anh": "img/user2.jpg",
+				"tieu_de": "Chia sẻ kinh nghiệm thuê tàu ở Vịnh Hạ Long",
+				"noi_dung": "",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "NQPhuc"
+			}
+		]
+	},
+
+	{
+		"id": "2",
+		"ten_dia_diem": "Vịnh Vĩnh Hy",
+		"so_luot_danh_gia": 50,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_vinh_hy.jpg",
+		"arr_hinh": [
+			"img/vinh_vinh_hy1",
+			"img/vinh_vinh_hy2",
+			"img/vinh_vinh_hy3",
+			"img/vinh_vinh_hy4",
+			"img/vinh_vinh_hy5"
+		],
+		"vi_tri_dia_ly": "Ninh Thuận",
+		"loai_dia_hinh": [
+			"Biển"
+		],
+		"doi_tuong": [
+			"Bạn bè",
+			"Gia đình"
+		],
+		"mo_ta": "Vịnh Vĩnh Hy nằm cách trung tâm Tp. Phan Rang – Tháp Chàm 42 km theo hướng Đông Bắc, thuộc xã Vĩnh Hải, huyện Ninh Hải. Là nơi còn mang nhiều nét hoang sơ do thiên nhiên hào phóng ban tặng, một quần thể thiên nhiên xinh đẹp, hùng vĩ với những bãi cát trắng bao quanh, được ví như nơi sơn cùng thủy tận của tỉnh Ninh Thuận. Cạnh đó là ốc đảo Vĩnh Hy quyến rũ bởi địa thế hiểm trở, một mặt là biển và 3 bề rừng núi bạt ngàn. Đường đến Vĩnh Hy chạy ngang qua núi Chúa thuộc vườn Quốc gia Núi Chúa, nơi có hệ sinh thái rừng khô hạn đặc trưng hiếm thấy nhất ở nước ta với nhiều sinh vật phong phú. Trên đường đến Vĩnh Hy có những cung đường rất đẹp, hoang sơ và hiểm trở. Hiện nay con đường xuống Vịnh Vĩnh Hy đang được đầu tư mở rộng. Tình cờ bắt gặp tảng đá dựng đứng như được bàn tay tài hoa nào đó đẽo gọt và sắp đặt. Từ đỉnh núi Chúa nhìn về hướng đông, vịnh Vĩnh Hy vẫn còn vẻ đẹp nguyên sơ mà thiên nhiên đã tạo nên. Vĩnh Hy được ví như một nàng tiên nằm yên ắng bình lặng, được các dãy núi hùng vĩ bao quanh, che chở. Vịnh Vĩnh Hy với một mặt là biển và 3 bề rừng núi bạt ngàn.",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "3",
+		"ten_dia_diem": "Đảo Nam Du",
+		"so_luot_danh_gia": 40,
+		"so_sao": "4",
+		"hinh_dai_dien": "img/nam_du.jpg",
+		"arr_hinh": [
+			"img/nam_du1.jpg",
+			"img/nam_du2.jpg",
+			"img/nam_du3.jpg",
+			"img/nam_du4.jpg",
+			"img/nam_du5.jpg"
+		],
+		"vi_tri_dia_ly": "Kiên Giang",
+		"loai_dia_hinh": [
+			"Đảo"
+		],
+		"doi_tuong": [
+			"Bạn bè",
+			"Gia đình"
+		],
+		"mo_ta": "Quần đảo Nam Du là một quần đảo nằm về phía đông nam đảo Phú Quốc trong vịnh Thái Lan, cách bờ biển Rạch Giá 65 hải lý. Quần đảo nằm dưới sự quản lý của xã An Sơn và xã Nam Du thuộc huyện Kiên Hải, tỉnh Kiên Giang. Quần đảo gồm khoảng 21 đảo lớn nhỏ cấu tạo từ đá macma xâm nhập và gồm hai dãy đảo song song theo hướng bắc-nam. Đảo lớn nhất là đảo Nam Du có đỉnh cao 309 m. Quần đảo có khí hậu chí tuyến gió mùa; mùa mưa kéo dài từ tháng 4 đến tháng 10 hàng năm",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "4",
+		"ten_dia_diem": "SaPa",
+		"so_luot_danh_gia": 200,
+		"so_sao": "5",
+		"hinh_dai_dien": "img/sapa.jpg",
+		"arr_hinh": [
+			"img/sapa1.jpg",
+			"img/sapa2.jpg",
+			"img/sapa3.jpg",
+			"img/sapa4.jpg",
+			"img/sapa5.jpg"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user1.jpg",
+				"tieu_de": "Vịnh Hạ Long là một nơi tuyệt đẹp",
+				"noi_dung": "",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "NVNam"
+			},
+			{
+				"hinh_anh": "img/user2.jpg",
+				"tieu_de": "Chia sẻ kinh nghiệm thuê tàu ở Vịnh Hạ Long",
+				"noi_dung": "",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "NQPhuc"
+			}
+		]
+	},
+
+	{
+		"id": "5",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/abc.png",
+				"tieu_de": "abc",
+				"noi_dung": "",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "abc"
+			},
+			{
+				"hinh_anh": "img/abc2.png",
+				"tieu_de": "abc2",
+				"noi_dung": "",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "01/01/2017",
+				"nguoi_dang": "abc"
+			}
+		]
+	},
+
+	{
+		"id": "6",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "7",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "8",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "9",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "10",
+		"ten_dia_diem": "Vịnh Hạ Long",
+		"so_luot_danh_gia": 123,
+		"so_sao": "3",
+		"hinh_dai_dien": "img/vinh_ha_long",
+		"arr_hinh": [
+			"img/vinh_ha_long1",
+			"img/vinh_ha_long2"
+		],
+		"vi_tri_dia_ly": "Quang Ninh",
+		"loai_dia_hinh": [
+			"núi"
+		],
+		"doi_tuong": [
+			"độc thân",
+			"gia đình"
+		],
+		"mo_ta": "",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Kinh nghiệm đường đi đến Vịnh",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 4,
+				"so_binh_luan": 5,
+				"ngay_dang": "03/01/2016",
+				"nguoi_dang": "NTAn"
+			},
+			{
+				"hinh_anh": "img/user4.jpg",
+				"tieu_de": "Chia sẽ nhà lều Hải sản nên ăn",
+				"noi_dung": "Chia sẽ kinh nghiệm",
+				"so_sao": 3,
+				"so_binh_luan": 10,
+				"ngay_dang": "01/02/2016",
+				"nguoi_dang": "TQBinh"
+			}
+		]
+	}
+]
