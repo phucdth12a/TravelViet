@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -11,15 +12,15 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider-demo.css" type="text/css" media="screen" />
     <!-- Custom CSS -->
     <link href="css/full-width-pics.css" rel="stylesheet">
     <!-- my css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/footerstyle.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="js/mustache.js"></script>
 </head>
 
 <body>
@@ -50,30 +51,7 @@
                 <!-- Searching -->
                 <div class="col-md-3">
                     <div class="input-group" id="adv-search">
-                    <!-- <script id="home_dia_diem" type="x-tmpl-mustache">
-                        <div class="filter-content col-md-12">
-                            <div class="result-item">
-                                <img src="{{hinh_dai_dien}}" />
-                                <div class="content-result-item">
-                                    <div class="header-content-result">
-                                        <span>{{ten_dia_diem}}</span>
-                                        <div class="result-rating">
-                                            <span class="fill"></span>
-                                            <span class="fill"></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-                                    <div class="des-result">
-                                        {{mo_ta}}<a href="#">Xem Thêm</a>
-                                    </div>
-                                    <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
-                                </div>
-                            </div>
-                        </div>
-                    </script> -->
-                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." id="txt_search" style="width:100%">
+                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." style="width:100%">
                         <div class="input-group-btn">
                             <div class="btn-group" role="group">
                                 <div class="dropdown dropdown-lg">
@@ -307,7 +285,7 @@
                                     </div>
                                 </div>
                                 <!--Button Search-->
-                                <button type="button" class="btn btn-default" id="btntimkiem"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                             </div>
                         </div>
                     </div>
@@ -365,75 +343,209 @@
     <!-- Content Section -->
     <section>
         <div class="container-fluid">
-            <div class="row" style="border: 1px solid #f1f1f1; height:600px; padding: 5px 0px">
-                <div class="col-md-2 banner-pr">
-                    <div style="vertical-align: middle;">BANNER</div>
+<!-- Thong tin chi tiet dia diem -->
+          <div id="IDChiTietDiaDiem" class="row" style="border: 0px solid #f1f1f1; padding: 0px 0px">
+              <div id ="navigation-header" class="col-md-12">
+                 <div class="col-md-1"></div>
+                 <div id="IDTitle-Navigation-header" class="col-md-10">
+                     <span> Địa điểm > Miền Bắc</span>
+                 </div>
+                 <div class="col-md-1"></div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="col-md-1"></div>
+                <div id="title-diadiem" class="col-md-10">
+                    <span class="title">VỊNH HẠ LONG</span>
+                    <div class="result-rating">
+                        <span class="fill"></span>
+                        <span class="fill"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="share-social">
+                        <span>facebook</span>
+                        <span>google+</span>
+                        <span class="number-rating">22 đánh giá</span>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="filter col-md-12">
-                        <div class="head-result d_resultfilter">
-                            <div class="filter-count">
-                                <span id="number-dia-diem">9</span> kết quả
-                            </div>
-                            <div class="filter-status-count">
-                                Địa điểm
-                            </div>
+                <div class="col-md-1"></div>
+              </div>
+              <!-- slider -->
+
+              <div class="col-md-12" style="padding-top: 12px;">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <section class="slider">
+                        <div id="slider" class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                        </ul>
                         </div>
+                        <div id="carousel" class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                            <li>
+                                <img src="img/phu_quoc.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc1.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc2.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc3.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc4.jpg" />
+                                </li>
+                                <li>
+                                <img src="img/phu_quoc5.jpg" />
+                                </li>
+                        </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+
+              <div id="IDnoidung" class="col-md-12">
+                  <div class="col-md-1"></div>
+                  <div class="noidung-diadiem col-md-10">
+                      <span class="title-noidung">Thông tin về VỊNH HẠ LONG </span>
+                      <div class="chitiet-diadiem col-md-12">
+                          <span class="col-md-12">vị trí địa lý: tỉnh Quản Ninh</span>
+                          <a class="col-md-12" href="https://www.google.com/maps/place/qu%E1%BA%A3ng%20ninh">Hiển thị bản đồ</a>
+                          <span class="col-md-12">Loại địa hình: </span>
+                          <span class="col-md-12">Đố tượng phù hợp: </span>
+                      </div>
+                      <div class="mota col-md-12">
+                          <span class="col-md-12">Mô tả địa điểm: </span>
+                      </div>
+                      <div class="button-xemthem">
+                          <a href="#">Xem them</a>
+                      </div>
+                  </div>
+                  <div class="col-md-1"></div>
+              </div>
+
+          </div>
+
+<!-- Banner AND Comment -->
+            <div class="row" style="border: 0px solid #f1f1f1; height:600px; padding: 5px 0px">
+                <div class="col-md-2 banner-pr">
+                  <!-- Banner -->
+                    <div style="vertical-align: middle;">
+                      <h3> Khu vực Banner</h3>
+                      <h3> gợi ý về các địa điểm được xem nhiều</h3>
+                      <img src="./img/Banner-1.png">
+                      <img src="./img/Banner-2.png">
                     </div>
-                    <br />
-                    <div class="resultnumber">
-                        <div class="items-search doituong">
-                            <div class="keyword">
-                                Đối tượng
-                            </div>
-                            <ul class="filter-list">
-                            </ul>
-                            <img class="image-close-items" src="img/keyword-close-icon.png" />
-                        </div>
-                        <div class="items-search tinhthanh">
-                            <div class="keyword">
-                                Tỉnh/thành
-                            </div>
-                            <ul class="filter-list">
-                            </ul>
-                            <img class="image-close-items" src="img/keyword-close-icon.png" />
-                        </div>
-                        <div class="items-search diahinh">
-                            <div class="keyword">
-                                Địa hình
-                            </div>
-                            <ul class="filter-list">
-                            </ul>
-                            <img class="image-close-items" src="img/keyword-close-icon.png" />
-                        </div>
+                </div>
+
+<!-- Comment -->
+                <div id="IDComment" class="col-md-8">
+                    <div class="col-md-12 title-comment">
+                        <p><span class="title">Danh sách bài viết về Vịnh Hạ Long</span>
+                        <span class="vietbaimoi">+ Viết bài mới</span></p>
                     </div>
-                    <br />
-                    <div class="filter-result col-md-12" id="list_dia_diem">
-                        <!-- <div class="filter-content col-md-12">
-                            <div class="result-item">
-                                <img src="img/vinhhalong.png" />
-                                <div class="content-result-item">
-                                    <div class="header-content-result">
-                                        <span>Vịnh Hạ Long</span>
-                                        <div class="result-rating">
-                                            <span class="fill"></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-                                    <div class="des-result">
-                                        Vịnh Hạ Long (vịnh nơi rồng đáp xuống) là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo thuộc thành phố Hạ Long, thành phố Cẩm Phả và một phần huyện đảo Vân Đồn của tỉnh Quảng Ninh...<a href="#">Xem Thêm</a>
-                                    </div>
-                                    <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="list-comment">
                         <div class="filter-content col-md-12">
                             <div class="result-item">
-                                <img src="img/vinh-van-phong.jpg" />
-                                <div class="content-result-item">
+                                <div class="author col-md-2">
+                                    <img src="img/user1.jpg" />
+                                </div>
+                                <div class="content-result-item col-md-10">
                                     <div class="header-content-result">
                                         <span>Vịnh Vân Phong</span>
                                         <div class="result-rating">
@@ -445,16 +557,56 @@
                                         </div>
                                     </div>
                                     <div class="des-result">
-                                       Vịnh Vân Phong có 3 hòn chính là Cổ Cò (Đầm Môn), Bến Gỏi và Hòn Khói. Trong đó vụng Cổ Cò (Đầm Môn) diện tích mặt nước nhỏ, nhưng khá sâu nằm tại phía đông của vịnh, được che chắn bởi một số đảo nhỏ và lớn nên kín gió và yên tĩnh, có thể phát triển du lịch biển hay các dịch vụ sang.<a href="#">Xem Thêm</a>
+                                        Vịnh Vân Phong có 3 hòn chính là Cổ Cò (Đầm Môn), Bến Gỏi và Hòn Khói. Trong đó vụng Cổ Cò (Đầm Môn) diện tích mặt nước nhỏ, nhưng khá sâu nằm tại phía đông của vịnh, được che chắn bởi một số đảo nhỏ và lớn nên kín gió và yên tĩnh, có thể phát triển du lịch biển hay các dịch vụ sang.<a href="#">Xem Thêm</a>
                                     </div>
-                                    <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
+
+                                </div>
+                                <div class="info-comment col-md-12">
+                                    <div class="result-created">Bài viết đăng ngày 11/04/2017 bởi &nbsp;<a href="#" class="author-name">Quốc Phục</a></div>
+                                    <a href="#">10 bình luận</a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+
+                        <div class="filter-content col-md-12">
+                            <div class="result-item">
+                                <div class="author col-md-2">
+                                    <img src="img/user1.jpg" />
+                                </div>
+                                <div class="content-result-item col-md-10">
+                                    <div class="header-content-result">
+                                        <span>Vịnh Vân Phong</span>
+                                        <div class="result-rating">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="des-result">
+                                        Vịnh Vân Phong có 3 hòn chính là Cổ Cò (Đầm Môn), Bến Gỏi và Hòn Khói. Trong đó vụng Cổ Cò (Đầm Môn) diện tích mặt nước nhỏ, nhưng khá sâu nằm tại phía đông của vịnh, được che chắn bởi một số đảo nhỏ và lớn nên kín gió và yên tĩnh, có thể phát triển du lịch biển hay các dịch vụ sang.<a href="#">Xem Thêm</a>
+                                    </div>
+
+                                </div>
+                                <div class="info-comment col-md-12">
+                                    <div class="result-created">Bài viết đăng ngày 11/04/2017 bởi &nbsp;<a href="#" class="author-name">Quốc Phục</a></div>
+                                    <a href="#">10 bình luận</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
+
+
                 <div class="col-md-2 banner-pr">
-                    <div style="vertical-align: middle;">BANNER</div>
+                    <div style="vertical-align: middle;">
+                      <h3> Khu vực Banner</h3>
+                      <h3> quảng cáo dành cho các dịch vụ</h3>
+                      <img src="./img/Banner-3.png">
+                      <img src="./img/Banner-4.png">
+                    </div>
                 </div>
             </div>
         </div>
@@ -513,12 +665,12 @@
             </div>
         </div>
     </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Underscore -->
-    <script src="js/underscore-min.js"></script>
     <!-- my js -->
-    <script src="js/my.js"></script>
+    <script src="myjs/myjs.js"></script>
     <!-- slider script -->
     <script src="js/jssor.slider-23.1.5.mini.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -608,6 +760,196 @@
         /*responsive code end*/
     });
     </script>
+
+    <!-- slider content -->
+    <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <script>
+
+  function loadJSON(file, callback) {
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);
+ }
+
+  $(function () {
+      var QueryString = function () {
+        // This function is anonymous, is executed immediately and
+        // the return value is assigned to QueryString!
+        var query_string = {};
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+                // If first entry with this name
+            if (typeof query_string[pair[0]] === "undefined") {
+            query_string[pair[0]] = decodeURIComponent(pair[1]);
+                // If second entry with this name
+            } else if (typeof query_string[pair[0]] === "string") {
+            var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+            query_string[pair[0]] = arr;
+                // If third or later entry with this name
+            } else {
+            query_string[pair[0]].push(decodeURIComponent(pair[1]));
+            }
+        }
+        return query_string;
+        }();
+
+        var mota;
+
+        function loadslider(images) {
+
+        }
+
+        function loadrating(number, total) {
+            $('#title-diadiem .result-rating').empty();
+
+            for(var i = 1; i <= 5; i++) {
+                if(i <= number) {
+                    $('#title-diadiem .result-rating').append('<span class="fill"></span>');
+                } else {
+                    $('#title-diadiem .result-rating').append('<span></span>');
+                }
+            }
+
+            $('#title-diadiem .share-social .number-rating').text(total + " đánh giá");
+        }
+
+        function loadcomment(comments) {
+            $('#IDComment .list-comment').empty();
+            for (var i = 0; i < comments.length; i++) {
+
+                var rating = "";
+                for (var j = 1; j<= 5; j++) {
+                    if (j <= comments[i].so_sao) {
+                        rating = rating + '<span class="fill"></span>';
+                    } else {
+                        rating = rating + '<span></span>';
+                    }
+                }
+
+                var noidung = "";
+                if (comments[i].noi_dung.length > 100) {
+                    noidung = comments[i].noi_dung.substr(0,100) + '...<a href="#">Xem Thêm</a>';
+                } else {
+                    noidung = comments[i].noi_dung;
+                }
+
+                var content = '<div class="filter-content col-md-12">'+
+                                '<div class="result-item">'+
+                                    '<div class="author col-md-2">'+
+                                        '<img src="'+comments[i].hinh_anh+'" />'+
+                                    '</div>'+
+                                    '<div class="content-result-item col-md-10">'+
+                                        '<div class="header-content-result">'+
+                                            '<span>'+comments[i].tieu_de+'</span>'+
+                                            '<div class="result-rating">'+rating+
+                                            '</div>'+
+                                        '</div>'+
+                                        '<div class="des-result">'+noidung+'</a>'+
+                                        '</div>'+
+                                    '</div>'+
+                                    '<div class="info-comment col-md-12">'+
+                                        '<div class="result-created">Bài viết đăng ngày '+comments[i].ngay_dang+' bởi <a href="#" class="author-name"> &nbsp;'+comments[i].nguoi_dang+'</a></div>'+
+                                        '<a href="#">'+comments[i].so_binh_luan+' bình luận</a>'+
+                                    '</div>'+
+                                '</div>'+
+                            '</div>';
+                $('#IDComment .list-comment').append(content);
+            }
+        }
+
+        loadJSON("json/tkgd.json", function(response) {
+            var actual_JSON = JSON.parse(response);
+
+            for(var i = 0; i < actual_JSON.length; i += 1){
+                var result = actual_JSON[i];
+                if(result.id === QueryString.id){
+                    $("#title-diadiem .title").text(result.ten_dia_diem);
+                    loadrating(result.so_sao, result.so_luot_danh_gia);
+
+                    var loaidiahinh = "";
+                    for(var j = 0; j < result.loai_dia_hinh.length; j++) {
+                        if(j == 0) {
+                            loaidiahinh = loaidiahinh + result.loai_dia_hinh[j];
+                        } else {
+                            loaidiahinh = loaidiahinh + ", " + result.loai_dia_hinh[j];
+                        }
+                    }
+
+                    var doituong = "";
+                    for(var j = 0; j < result.doi_tuong.length; j++) {
+                        if(j == 0) {
+                            doituong = doituong + result.doi_tuong[j];
+                        } else {
+                            doituong = doituong + ", " + result.doi_tuong[j];
+                        }
+                    }
+
+
+                    $('#IDnoidung .chitiet-diadiem').empty();
+                    var noidung = '<span class="col-md-12">Vị trí địa lý: '+result.vi_tri_dia_ly+'</span>'+
+                    '<a class="col-md-12" href="https://www.google.com/maps/place/'+result.vi_tri_dia_ly+'">Hiển thị bản đồ</a>'+
+                    '<span class="col-md-12">Loại địa hình: '+loaidiahinh+'</span>'+
+                    '<span class="col-md-12">Đối tượng phù hợp: '+doituong+'</span>';
+                    $('#IDnoidung .chitiet-diadiem').append(noidung);
+
+                    mota = result.mo_ta;
+                    $('#IDnoidung .mota').empty();
+                    $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm: '+mota.substr(0,200) + '...</span>');
+
+                    loadcomment(result.bai_viet);
+                    return;
+                }
+            }
+
+        });
+
+        $('.button-xemthem').click(function(e) {
+            e.preventDefault();
+            $('#IDnoidung .mota').empty();
+            $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm: '+mota+'</span>');
+            $('.button-xemthem').css('display', 'none');
+        });
+
+  });
+  </script>
+
 </body>
 
 </html>
