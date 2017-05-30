@@ -97,11 +97,11 @@
 		"so_sao": "4",
 		"hinh_dai_dien": "img/nam_du.jpg",
 		"arr_hinh": [
-			"img/nam_du1.jpg",
-			"img/nam_du2.jpg",
-			"img/nam_du3.jpg",
-			"img/nam_du4.jpg",
-			"img/nam_du5.jpg"
+			"img/nam_du1.JPG",
+			"img/nam_du2.JPG",
+			"img/nam_du3.JPG",
+			"img/nam_du4.JPG",
+			"img/nam_du5.JPG"
 		],
 		"vi_tri_dia_ly": "Kiên Giang",
 		"loai_dia_hinh": [
