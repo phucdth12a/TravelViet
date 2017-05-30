@@ -82,19 +82,19 @@
                             </div>
                         </div>
                     </script> -->
-                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." id="txt_search" style="width:100%">
+                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." id="txt_search" style="width:100%" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào khung Search', 'eventAction': 'Click', 'eventLabel': 'Nhấp vào khung tìm kiếm' });">
                         <div class="input-group-btn">
                             <div class="btn-group" role="group">
                                 <div class="dropdown dropdown-lg">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-filter" aria-hidden="true"></i> &nbsp;Bộ lọc</button>
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp bộ lọc', 'eventAction': 'Click', 'eventLabel': 'Nhấp vào nút bộ lọc' });"><i class="fa fa-filter" aria-hidden="true"></i> &nbsp;Bộ lọc</button>
                                     <div class="dropdown-menu dropdown-menu-right" role="menu">
                                         <!-- tabs left -->
                                         <form class="form-horizontal" role="form">
                                             <div class="tabbable tabs-left">
                                                 <ul class="nav nav-tabs">
-                                                    <li class="active" tab_id="a"><a href="#a" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Đối tượng</a></li>
-                                                    <li tab_id="b"><a href="#b" data-toggle="tab"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Tỉnh/Thành</a></li>
-                                                    <li tab_id="c"><a href="#c" data-toggle="tab"><i class="glyphicon glyphicon-road" aria-hidden="true"></i>&nbsp;&nbsp;Địa hình</a></li>
+                                                    <li class="active" tab_id="a"><a href="#a" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào đối tượng', 'eventAction': 'Click', 'eventLabel': 'Nhấp vào đối tượng' });"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Đối tượng</a></li>
+                                                    <li tab_id="b"><a href="#b" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào Tỉnh/Thành', 'eventAction': 'Click', 'eventLabel': 'Nhấp vào tỉnh thành' });"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Tỉnh/Thành</a></li>
+                                                    <li tab_id="c"><a href="#c" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào địa hình', 'eventAction': 'Click', 'eventLabel': 'Nhấp vào địa hình' });"><i class="glyphicon glyphicon-road" aria-hidden="true"></i>&nbsp;&nbsp;Địa hình</a></li>
                                                 </ul>
                                                 <div class="tab-content">
                                                     <div class="tab-pane active col-md-12" id="a">
@@ -322,14 +322,14 @@
                                             </div>
                                             <!-- /tabs -->
                                             <div class="search-action col-md-12">
-                                                <button class="btn btn-success btntimkiem">Tìm kiếm</button>
-                                                <button class="btn btn-danger btnxoaboloc">Xóa bộ lọc</button>
+                                                <button class="btn btn-success btntimkiem" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp tìm kiếm ở bộ lọc', 'eventAction': 'Click', 'eventLabel': 'Nhấn nút tìm kiếm ở bộ lọc' });">Tìm kiếm</button>
+                                                <button class="btn btn-danger btnxoaboloc" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp xóa bộ lọc', 'eventAction': 'Click', 'eventLabel': 'Nhấp nút xóa bộ lọc' });">Xóa bộ lọc</button>
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                                 <!--Button Search-->
-                                <button type="button" class="btn btn-default" id="btntimkiem"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                <button type="button" class="btn btn-default" id="btntimkiem" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp tìm kiếm', 'eventAction': 'Click', 'eventLabel': 'Nhấn vào nút tìm kiếm' });"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                             </div>
                         </div>
                     </div>
