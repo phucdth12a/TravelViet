@@ -4,11 +4,11 @@
             <img src="{{hinh_dai_dien}}" />
             <div class="content-result-item">
                 <div class="header-content-result">
-                    <a href="chitiet.html?id={{ id }}">{{ten_dia_diem}}</a>
+                    <a href="chitiet.html?id={{ id }}" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn xem địa điểm', 'eventAction': 'Click', 'eventLabel': '{{ten_dia_diem}}' });">{{ten_dia_diem}}</a>
                     {{{result_rating_html}}}
                 </div>
                 <div class="des-result">
-                    {{mo_ta_ngan_gon}} ... &nbsp<a href="chitiet.html?id={{ id }}">Xem Thêm</a>
+                    {{mo_ta_ngan_gon}} ... &nbsp<a href="chitiet.html?id={{ id }}" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn xem địa điểm', 'eventAction': 'Click', 'eventLabel': '{{ten_dia_diem}}' });">Xem Thêm</a>
                 </div>
                 <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
             </div>
