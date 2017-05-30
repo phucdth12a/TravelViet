@@ -20,16 +20,6 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/mustache.js"></script>
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-100004794-1', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body>
@@ -76,26 +66,26 @@
                                         </div>
                                     </div>
                                     <div class="des-result">
-                                        {{mo_ta}}<a href="#">Xem Thêm</a>
+                                        {{mo_ta}}<a href="1">Xem Thêm</a>
                                     </div>
                                     <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
                                 </div>
                             </div>
                         </div>
                     </script> -->
-                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." id="txt_search" style="width:100%" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào khung search', 'eventAction': 'click', 'eventLabel': 'Nhấp vào khung search' });">
+                        <input type="text" class="form-control" placeholder="Địa điểm tìm kiếm..." id="txt_search" style="width:100%">
                         <div class="input-group-btn">
                             <div class="btn-group" role="group">
                                 <div class="dropdown dropdown-lg">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp bộ lọc', 'eventAction': 'click', 'eventLabel': 'Nhấp vạo nút bộ lọc' });"><i class="fa fa-filter" aria-hidden="true"></i> &nbsp;Bộ lọc</button>
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-filter" aria-hidden="true"></i> &nbsp;Bộ lọc</button>
                                     <div class="dropdown-menu dropdown-menu-right" role="menu">
                                         <!-- tabs left -->
                                         <form class="form-horizontal" role="form">
                                             <div class="tabbable tabs-left">
                                                 <ul class="nav nav-tabs">
-                                                    <li class="active" tab_id="a"><a href="#a" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp vào đối tượng', 'eventAction': 'click', 'eventLabel': 'Nhấn vào đối tượng' });"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Đối tượng</a></li>
-                                                    <li tab_id="b"><a href="#b" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn vào tỉnh/thành', 'eventAction': 'click', 'eventLabel': 'Nhấn vào tỉnh/thành' });"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Tỉnh/thành</a></li>
-                                                    <li tab_id="c"><a href="#c" data-toggle="tab" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn vào địa hình', 'eventAction': 'click', 'eventLabel': 'Nhấn vào địa hình' });"><i class="glyphicon glyphicon-road" aria-hidden="true"></i>&nbsp;&nbsp;Địa hình</a></li>
+                                                    <li class="active" tab_id="a"><a href="#a" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Đối tượng</a></li>
+                                                    <li tab_id="b"><a href="#b" data-toggle="tab"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Tỉnh/Thành</a></li>
+                                                    <li tab_id="c"><a href="#c" data-toggle="tab"><i class="glyphicon glyphicon-road" aria-hidden="true"></i>&nbsp;&nbsp;Địa hình</a></li>
                                                 </ul>
                                                 <div class="tab-content">
                                                     <div class="tab-pane active col-md-12" id="a">
@@ -106,12 +96,12 @@
                                                                     <label for="checkboxsong">Cặp đôi</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="checkboxdoinui" type="checkbox" name="Gia đình">
-                                                                    <label for="checkboxdoinui">Gia đình</label>
-                                                                </div>
-                                                                <div class="col-md-4">
                                                                     <input id="checkboxdongbang" type="checkbox" name="Bạn bè">
                                                                     <label for="checkboxdongbang">Bạn bè</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="checkboxdoinui" type="checkbox" name="Gia đình">
+                                                                    <label for="checkboxdoinui">Gia đình</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -120,156 +110,168 @@
                                                         <div class="checkbox checkbox-success col-md-12 listtinhthanh">
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4">
-                                                                    <input id="checkboxtphcm" type="checkbox" name="TP.HCM">
-                                                                    <label for="checkboxtphcm">TP.HCM</label>
+                                                                    <input id="1" type="checkbox" name="An Giang">
+                                                                    <label for="1">An Giang</label>
                                                                 </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxhanoi" type="checkbox" name="Hà Nội">
-                                                                    <label for="checkboxhanoi">Hà Nội</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxhue" type="checkbox" name="Huế">
-                                                                    <label for="checkboxhue">Huế</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxangiang" type="checkbox" name="An Giang">
-                                                                    <label for="checkboxangiang">An Giang</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxbinhduong" type="checkbox" name="Bình Dương">
-                                                                    <label for="checkboxbinhduong">Bình Dương</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxdienbien" type="checkbox" name="Điện Biên">
-                                                                    <label for="checkboxdienbien">Điện Biên</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxbacgiang" type="checkbox" name="Bắc Giang">
-                                                                    <label for="checkboxbacgiang">Bắc Giang</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxbinhphuoc" type="checkbox" name="Bình Phước">
-                                                                    <label for="checkboxbinhphuoc">Bình Phước</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="checkboxdongnai" type="checkbox" name="Đồng Nai">
-                                                                    <label for="checkboxdongnai">Đồng nai</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="1" type="checkbox" name="Bắc Cạn">
-                                                                    <label for="1">Bắc Cạn</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="2" type="checkbox" name="Bình Thuận">
-                                                                    <label for="2">Bình Thuận</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="3" type="checkbox" name="Đồng Tháp">
-                                                                    <label for="3">Đồng Tháp</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="4" type="checkbox" name="Bạc Liêu">
-                                                                    <label for="4">Bạc Liêu</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="5" type="checkbox" name="Cà Mau">
-                                                                    <label for="5">Cà Mau</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="6" type="checkbox" name="Gia Lai">
-                                                                    <label for="6">Gia Lai</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="7" type="checkbox" name="Bến Tre">
-                                                                    <label for="7">Bến Tre</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="8" type="checkbox" name="Cao Bằng">
-                                                                    <label for="8">Cao Bằng</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="9" type="checkbox" name="Khánh Hoà">
-                                                                    <label for="9">Khánh Hòa</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="10" type="checkbox" name="Bình Định">
-                                                                    <label for="10">Bình Định</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="11" type="checkbox" name="Đắk Lắk">
-                                                                    <label for="11">Đắk Lắk</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="12" type="checkbox" name="Kiên Giang">
-                                                                    <label for="12">Kiên Giang</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
                                                                 <div class="col-md-4">
                                                                     <input id="13" type="checkbox" name="Lâm Đồng">
                                                                     <label for="13">Lâm Đồng</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="14" type="checkbox" name="Gia Lai">
-                                                                    <label for="14">Gia Lai</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="15" type="checkbox" name="Đà Nẵng">
-                                                                    <label for="15">Đà Nẵng</label>
+                                                                  <input id="25" type="checkbox" name="Thanh Hóa">
+                                                                  <label for="25">Thanh Hóa</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4">
-                                                                    <input id="16" type="checkbox" name="Hà Tĩnh">
-                                                                    <label for="16">Hà Tĩnh</label>
+                                                                    <input id="2" type="checkbox" name="Bạc Liêu">
+                                                                    <label for="2">Bạc Liêu</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="17" type="checkbox" name="Nghệ An">
-                                                                    <label for="17">Nghệ An</label>
+                                                                    <input id="14" type="checkbox" name="Nghệ An">
+                                                                    <label for="14">Nghệ An</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="18" type="checkbox" name="Bảo Lộc">
-                                                                    <label for="18">Bào Lộc</label>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="col-md-4">
-                                                                    <input id="19" type="checkbox" name="Tuyên Quang">
-                                                                    <label for="19">Tuyên Quang</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="20" type="checkbox" name="Thái Bình">
-                                                                    <label for="20">Thái Bình</label>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <input id="21" type="checkbox" name="Tây Bắc">
-                                                                    <label for="21">Tây Bắc</label>
+                                                                    <input id="26" type="checkbox" name="Trà Vinh">
+                                                                    <label for="26">Trà Vinh</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4">
-                                                                    <input id="22" type="checkbox" name="Lạng Sơn">
-                                                                    <label for="22">Lạng Sơn</label>
+                                                                  <input id="3" type="checkbox" name="Bình Dương">
+                                                                  <label for="3">Bình Dương</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="23" type="checkbox" name="Thanh Hóa">
-                                                                    <label for="23">Thanh Hóa</label>
+                                                                    <input id="15" type="checkbox" name="Ninh Bình">
+                                                                    <label for="15">Ninh Bình</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="24" type="checkbox" name="Vũng Áng">
-                                                                    <label for="24">Vũng Áng</label>
+                                                                    <input id="27" type="checkbox" name="Tuyên Quang">
+                                                                    <label for="27">Tuyên Quang</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="4" type="checkbox" name="Bình Phước">
+                                                                    <label for="4">Bình Phước</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="16" type="checkbox" name="Ninh Thuận">
+                                                                    <label for="16">Ninh Thuận</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="28" type="checkbox" name="Tiền Giang">
+                                                                    <label for="28">Tiền Giang</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="5" type="checkbox" name="Bình Thuận">
+                                                                    <label for="5">Bình Thuận</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="17" type="checkbox" name="Quảng Bình">
+                                                                    <label for="17">Quảng Bình</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="29" type="checkbox" name="TP.HCM">
+                                                                    <label for="29">TP.HCM</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="6" type="checkbox" name="Cà Mau">
+                                                                    <label for="6">Cà Mau</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="18" type="checkbox" name="Quảng Nam">
+                                                                    <label for="18">Quảng Nam</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="30" type="checkbox" name="TP.Hà Nội">
+                                                                    <label for="30">TP.Hà Nội</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="7" type="checkbox" name="Cần Thơ">
+                                                                    <label for="7">Cần Thơ</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="19" type="checkbox" name="Quảng Ngãi">
+                                                                    <label for="19">Quảng Ngãi</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="31" type="checkbox" name="Vĩnh Long">
+                                                                    <label for="31">Vĩnh Long</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                  <input id="8" type="checkbox" name="Đồng Nai">
+                                                                  <label for="8">Đồng Nai</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="20" type="checkbox" name="Quảng Trị">
+                                                                    <label for="20">Quảng Trị</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="32" type="checkbox" name="Vĩnh Phúc">
+                                                                    <label for="32">Vĩnh Phúc</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="9" type="checkbox" name="Đà Nẵng">
+                                                                    <label for="9">Đà Nẵng</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="21" type="checkbox" name="Sóc Trăng">
+                                                                    <label for="21">Sóc Trăng</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="33" type="checkbox" name="Yên Bái">
+                                                                    <label for="33">Yên Bái</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="10" type="checkbox" name="Hải Phòng">
+                                                                    <label for="10">Hải Phòng</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="22" type="checkbox" name="Tây Ninh">
+                                                                    <label for="22">Tây Ninh</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="34" type="checkbox" name="Phú Yên">
+                                                                    <label for="34">Phú Yên</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="11" type="checkbox" name="Khánh Hòa">
+                                                                    <label for="11">Khánh Hòa</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="23" type="checkbox" name="Thái Nguyên">
+                                                                    <label for="23">Thái Nguyên</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="col-md-4">
+                                                                    <input id="12" type="checkbox" name="Kiên Giang">
+                                                                    <label for="12">Kiên Giang</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input id="24" type="checkbox" name="Thái Bình">
+                                                                    <label for="24">Thái Bình</label>
+                                                                </div>
+                                                                <div class="col-md-4">
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -278,30 +280,31 @@
                                                         <div class="checkbox checkbox-success col-md-12 listdiahinh">
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4">
-                                                                    <input id="111" type="checkbox" name="Núi">
-                                                                    <label for="111">Núi</label>
+                                                                    <input id="111" type="checkbox" name="Đồi núi">
+                                                                    <label for="111">Đồi núi</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="112" type="checkbox" name="Biển">
-                                                                    <label for="112">Biển</label>
+                                                                    <input id="116" type="checkbox" name="Hang động">
+                                                                    <label for="116">Hang động</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="113" type="checkbox" name="Đồng Bằng">
-                                                                    <label for="113">Đồng Bằng</label>
+                                                                    <input id="113" type="checkbox" name="Đồng bằng">
+                                                                    <label for="113">Đồng bằng</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4">
-                                                                    <input id="114" type="checkbox" name="Sa Mạc">
-                                                                    <label for="114">Sa Mạc</label>
+                                                                    <input id="112" type="checkbox" name="Biển đảo">
+                                                                    <label for="112">Biển Đảo</label>
+
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="115" type="checkbox" name="Thung Lũng">
-                                                                    <label for="115">Thung Lũng</label>
+                                                                    <input id="115" type="checkbox" name="Thung lũng">
+                                                                    <label for="115">Sông nước</label>
                                                                 </div>
                                                                 <div class="col-md-4">
-                                                                    <input id="116" type="checkbox" name="Hang Động">
-                                                                    <label for="116">Hang Động</label>
+                                                                    <input id="114" type="checkbox" name="Rừng">
+                                                                    <label for="114">Rừng</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -310,14 +313,14 @@
                                             </div>
                                             <!-- /tabs -->
                                             <div class="search-action col-md-12">
-                                                <button class="btn btn-success btntimkiem" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn nút tìm kiếm trong bộ lọc', 'eventAction': 'click', 'eventLabel': 'Nhấn nút tìm kiếm trong bộ lọc' });">Tìm kiếm</button>
-                                                <button class="btn btn-danger btnxoaboloc" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn nút xóa bộ lọc', 'eventAction': 'click', 'eventLabel': 'Nhấn nút xóa bộ lọc' });">Xóa bộ lọc</button>
+                                                <button class="btn btn-success btntimkiem">Tìm kiếm</button>
+                                                <button class="btn btn-danger btnxoaboloc">Xóa bộ lọc</button>
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                                 <!--Button Search-->
-                                <button type="button" class="btn btn-default" id="btntimkiem" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấp tìm kiếm', 'eventAction': 'click', 'eventLabel': 'Nhấp tìm kiếm' });"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                <button type="button" class="btn btn-default" id="btntimkiem"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                             </div>
                         </div>
                     </div>
@@ -343,7 +346,7 @@
             <div>
                 <img data-u="image" src="img/slider-4.jpg" />
                 <div class="name-location">Đà Nẵng</div>
-                <div class="info-location">Thành phố Đà Nẵng nằm ở trung độ của Việt Nam. Đà Nẵng còn là trung điểm của các di sản thế giới: Cố đô Huế, Phố cổ Hội An và Thánh địa Mỹ Sơn.</div>
+                <div class="info-location">Đà Nẵng nằm giữa ba di sản thế giới: cố đô Huế, phố cổ Hội An và thánh địa Mỹ Sơn. Đà Nẵng còn có nhiều danh thắng tuyệt đẹp, say lòng du khách như: Ngũ Hành Sơn, Bà Nà, bán đảo Sơn Trà, đèo Hải Vân, sông Hàn thơ mộng và cầu quay Sông Hàn – niềm tự hào của thành phố và biển Mỹ Khê đẹp nhất hành tinh.</div>
             </div>
             <div>
                 <img data-u="image" src="img/slider-1.jpg" />
@@ -353,13 +356,13 @@
             <div>
                 <img data-u="image" src="img/slider-3.jpg" />
                 <div class="name-location">SaPa</div>
-                <div class="info-location">Sa Pa nằm trên một mặt bằng ở độ cao 1500 đến 1650 mét ở sườn núi Lô Suây Tông. Đỉnh của núi này có thể nhìn thấy ở phía đông nam của Sa Pa, có độ cao 2228 mét. Từ thị trấn nhìn xuống có Thung lũng Ngòi Dum ở phía đông và Thung lũng Mường Hoa ở phía tây nam.</div>
+                <div class="info-location">SaPa nằm trên một mặt bằng ở độ cao 1500m đến 1650m ở sườn núi Lô Suây Tông. Đỉnh của núi này có thể nhìn thấy ở phía đông nam của SaPa, có độ cao 2228m. Từ thị trấn nhìn xuống có Thung lũng Ngòi Dum ở phía đông và Thung lũng Mường Hoa ở phía tây nam.</div>
             </div>
             <div>
                 <img data-u="image" src="img/slider-2.jpg" />
                 <div class="name-location">Sơn Đoòng</div>
                 <div class="info-location">Hang Sơn Đoòng được hình thành khoảng 2-5 triệu năm trước, khi nước sông chảy ngang qua vùng đá vôi đã bị vùi lấp dọc theo một đường đứt gãy. Dòng nước làm xói mòn và tạo ra một đường hầm khổng lồ trong lòng đất dưới dãy núi.<br />
-                Hang có chiều rộng 150 mét, cao hơn 200 mét, chiều dài lên tới gần 9 ki-lô-mét. Ước tính dung tích của Hang Sơn Đoòng là 38.5 triệu mét khối.</div>
+                Hang có chiều rộng 150m, cao hơn 200m, chiều dài lên tới gần 9km. Ước tính dung tích của Hang Sơn Đoòng là 38.5 triệu mét khối.</div>
             </div>
         </div>
         <!-- Bullet Navigator -->
@@ -375,9 +378,18 @@
     <!-- Content Section -->
     <section>
         <div class="container-fluid">
-            <div class="row" style="border: 1px solid #f1f1f1; height:600px; padding: 5px 0px">
+            <div class="row" style="border: 1px solid #f1f1f1; padding: 5px 0px">
                 <div class="col-md-2 banner-pr">
-                    <div style="vertical-align: middle;">BANNER</div>
+                  <!-- Banner -->
+                    <div style="vertical-align: middle;">
+                      <h4> Khu vực Banner</h4>
+                      <h4> gợi ý về các địa điểm được xem nhiều</h4>
+                      <img src="./img/Banner-1.png">
+                      <img src="./img/Banner-2.png">
+                      <img src="./img/Banner-5.png">
+                      <img src="./img/Banner-6.png">
+                      <img src="./img/Banner-7.png">
+                    </div>
                 </div>
                 <div class="col-md-8">
                     <div class="filter col-md-12">
@@ -464,7 +476,14 @@
                     </div>
                 </div>
                 <div class="col-md-2 banner-pr">
-                    <div style="vertical-align: middle;">BANNER</div>
+                  <div style="vertical-align: middle;">
+                    <h4> Khu vực Banner</h4>
+                    <h4> quảng cáo dành cho các dịch vụ</h4>
+                    <img src="./img/Banner-3.png">
+                    <img src="./img/Banner-4.png">
+                    <img src="./img/Banner-8.png">
+                    <img src="./img/Banner-9.png">
+                  </div>
                 </div>
             </div>
         </div>

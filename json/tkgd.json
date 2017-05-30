@@ -2,6 +2,7 @@
 	{
 		"id": "1",
 		"ten_dia_diem": "Vịnh Hạ Long",
+		"mien": "Miền Bắc",
 		"so_luot_danh_gia": 100,
 		"so_sao": "4",
 		"hinh_dai_dien": "img/vinh_ha_long.jpg",
@@ -17,7 +18,6 @@
 			"Hang động"
 		],
 		"doi_tuong": [
-			"Độc thân",
 			"Bạn bè",
 			"Gia đình"
 		],
@@ -47,6 +47,7 @@
 	{
 		"id": "2",
 		"ten_dia_diem": "Vịnh Vĩnh Hy",
+		"mien": "Miền Trung",
 		"so_luot_danh_gia": 50,
 		"so_sao": "3",
 		"hinh_dai_dien": "img/vinh_vinh_hy.jpg",
@@ -59,7 +60,7 @@
 		],
 		"vi_tri_dia_ly": "Ninh Thuận",
 		"loai_dia_hinh": [
-			"Biển"
+			"Biển đảo"
 		],
 		"doi_tuong": [
 			"Bạn bè",
@@ -91,6 +92,7 @@
 	{
 		"id": "3",
 		"ten_dia_diem": "Đảo Nam Du",
+		"mien": "Miền Nam",
 		"so_luot_danh_gia": 40,
 		"so_sao": "4",
 		"hinh_dai_dien": "img/nam_du.jpg",
@@ -103,11 +105,11 @@
 		],
 		"vi_tri_dia_ly": "Kiên Giang",
 		"loai_dia_hinh": [
-			"Đảo"
+			"Biển đảo"
 		],
 		"doi_tuong": [
 			"Bạn bè",
-			"Gia đình"
+			"Cặp đôi"
 		],
 		"mo_ta": "Quần đảo Nam Du là một quần đảo nằm về phía đông nam đảo Phú Quốc trong vịnh Thái Lan, cách bờ biển Rạch Giá 65 hải lý. Quần đảo nằm dưới sự quản lý của xã An Sơn và xã Nam Du thuộc huyện Kiên Hải, tỉnh Kiên Giang. Quần đảo gồm khoảng 21 đảo lớn nhỏ cấu tạo từ đá macma xâm nhập và gồm hai dãy đảo song song theo hướng bắc-nam. Đảo lớn nhất là đảo Nam Du có đỉnh cao 309 m. Quần đảo có khí hậu chí tuyến gió mùa; mùa mưa kéo dài từ tháng 4 đến tháng 10 hàng năm. Hiện chưa rõ tên gọi Nam Du xuất phát từ đâu nhưng có nguồn cho rằng tên gọi này đã có từ thời vua Gia Long trong khi nguồn khác cho rằng tên 'Nam Du' xuất phát từ tên 'Nam Dự' (nghĩa là 'đảo phía nam') do người Pháp ghi theo cách gọi của các cụ đồ nho thời xưa. Việc di chuyển giữa các hòn đảo hầu hết bằng tàu. Để tiết kiệm chi phí, du khách nên đi theo từng nhóm từ 8 đến 12 người. Ngoài ra để thỏa sức khám phá các đảo hoang sơ, ngủ lều là chọn lựa tốt nhất, vậy nên khi đi đông người sẽ tiết kiệm chi phí. Các đảo phải đến ở Nam Du là Hòn Ngang, Hòn Mấu, Hai Bờ Đập, Bãi Cây Mến. Du khách có thể liên hệ tàu của người dân địa phương như anh Phong Vũ Nam Du, Bảy Nam Du. Hòn Mấu rất đẹp với 5 bãi biển, đứng đầu là bãi Chướng. Ngoài ra còn bãi Nồm, bãi Đá Đen và bãi Đá Trắng rất thơ mộng. Bãi Nam là mặt tiền của đảo, nơi đây như sóng yên, gió lặng quanh năm, xung quanh là hàng dừa xanh mát. Lý tưởng nhất là bãi Đá Đen, nơi có nhiều loại đá đẹp, đa màu sắc, hoa văn. Du khách đến đây sẽ đắm mình trong làn nước biển xanh, hoặc nằm dài trên bãi cát còn hoang sơ và thơ mộng.Thường các bãn biển ở Nam Du, bãi cạn, gần bờ khá dài, cần lội bộ một đoạn để vào bờ. Bạn nên đi dẹp có quai hậu, đề phòng đá sắc hoặc các hố do đá xen kẽ. Hai Bờ Đập với những hàng dừa tuyệt đẹp, thích hợp để du khách cắm trại nghỉ trưa, vui chơi tắm biển. Sau hành trình dài khám phá các đảo lớn nhỏ, bãi Mến là điểm dừng chân lý tưởng nhất để nghỉ ngơi và thả mình trong làn nước mát, tận hưởng cảm giác bình yên.",
 		"bai_viet": [
@@ -135,6 +137,7 @@
 	{
 		"id": "4",
 		"ten_dia_diem": "SaPa",
+		"mien": "Miền Bắc",
 		"so_luot_danh_gia": 80,
 		"so_sao": "5",
 		"hinh_dai_dien": "img/sapa.jpg",
@@ -150,7 +153,7 @@
 			"Đồi núi"
 		],
 		"doi_tuong": [
-			"Độc thân",
+			"Cặp đôi",
 			"Bạn bè",
 			"Gia đình"
 		],
@@ -189,9 +192,10 @@
 	{
 		"id": "5",
 		"ten_dia_diem": "Phú Quốc",
+		"mien": "Miền Nam",
 		"so_luot_danh_gia": 89,
 		"so_sao": "4",
-		"hinh_dai_dien": "img/phuc_quoc.jpg",
+		"hinh_dai_dien": "img/phu_quoc.jpg",
 		"arr_hinh": [
 			"img/phu_quoc1.jpg",
 			"img/phu_quoc2.jpg",
@@ -201,10 +205,10 @@
 		],
 		"vi_tri_dia_ly": "Kiên Giang",
 		"loai_dia_hinh": [
-			"Đảo"
+			"Biển đảo"
 		],
 		"doi_tuong": [
-			"Độc thân",
+			"Cặp đôi",
 			"Bạn bè",
 			"Gia đình"
 		],
@@ -225,6 +229,7 @@
 	{
 		"id": "6",
 		"ten_dia_diem": "Sơn Đoòng",
+		"mien": "Miền Trung",
 		"so_luot_danh_gia": 200,
 		"so_sao": "5",
 		"hinh_dai_dien": "img/son_doong.jpg",
@@ -240,7 +245,7 @@
 			"Hang động"
 		],
 		"doi_tuong": [
-			"Độc thân",
+			"Cặp đôi",
 			"Bạn bè"
 		],
 		"mo_ta": "Hang Sơn Đoòng tại xã Tân Trạch, huyện Bố Trạch, tỉnh Quảng Bình, Việt Nam được coi là hang động tự nhiên lớn nhất thế giới. Hang này nằm trong quần thể hang động Phong Nha-Kẻ Bàng. Hang Sơn Đoòng là một phần của hệ thống ngầm nối với hơn 150 động khác ở Việt Nam gần biên giới với Lào. Thời báo New York xếp hang Sơn Đoòng vào vị trí thứ 8 trong 52 địa danh trong danh sách những nơi nên đến năm 2014. Dãy núi đá vôi vùng biên giới Việt–Lào có nhiều hang động như động Phong Nha đã biết đến từ lâu nhưng hang Sơn Đoòng chỉ được khám phá vào năm 1991 khi Hồ Khanh - một người dân địa phương - tình cờ tìm ra khi lánh vào cửa hang để tránh mưa. Bẵng một thời gian đến năm 2009 khi đoàn thám hiểm Hiệp hội Hang động Hoàng gia Anh đến khu vực này thăm dò thì Hồ Khanh mới báo cho họ. Phải khó khăn lắm ông mới tìm lại được cửa hang vốn nằm sâu trong rừng già với địa hình khá hiểm trở, cách xa đường lớn và không thể phát hiện thấy trên Google Earth. Dưới sự hướng dẫn của ông, họ đã đi sâu vào hang, chụp ảnh, đo đạc và thu thập dữ kiện khoa học. Vì Hồ Khanh được cho là người đầu tiên phát hiện ra hang động này nên đoàn thám hiểm đề nghị ông Khanh đặt tên cho hang. Ông Khanh đã lấy tên mình làm tên hang, gọi là hang Hồ Khanh. Đoàn thám hiểm ghi nhận tên do ông Khanh đặt nhưng mấy hôm sau họ xin phép ông Khanh để cho họ đặt lại tên cho hang là 'Sơn Đoòng' và ông đã đồng ý. Tên gọi 'Sơn Đoòng' được tạo ra bằng cách ghép địa danh 'Đoòng' có sẵn từ trước với từ Hán Việt 'sơn'. Gần cửa trước hang Sơn Đoòng có một bản của người Vân Kiều tên là bản Đoòng. Bản Đoòng thuộc xã Tân Trạch, huyện Bố Trạch, tỉnh Quảng Bình. Ngày 22 tháng 4 năm 2009, phái đoàn Hiệp hội Hang động Hoàng gia Anh do Howard Limbirt dẫn đầu đã công bố việc phát hiện hang và cho rằng quy mô của hang Sơn Đoòng quả thực là lớn nhất thế giới. Vào tháng 1 năm 2010, các nhà thám hiểm đã trở lại Sơn Đoòng để tìm hiểu thêm về hệ thống hang động này.",
@@ -260,6 +265,7 @@
 	{
 		"id": "7",
 		"ten_dia_diem": "Bình Ba",
+		"mien": "Miền Trung",
 		"so_luot_danh_gia": 100,
 		"so_sao": "3",
 		"hinh_dai_dien": "img/binh_ba.jpg",
@@ -272,10 +278,10 @@
 		],
 		"vi_tri_dia_ly": "Khánh Hòa",
 		"loai_dia_hinh": [
-			"Đảo"
+			"Biển đảo"
 		],
 		"doi_tuong": [
-			"Độc thân",
+			"Cặp đôi",
 			"Bạn bè",
 			"Gia đình"
 		],
@@ -305,6 +311,7 @@
 	{
 		"id": "8",
 		"ten_dia_diem": "Phong Nha",
+		"mien": "Miền Trung",
 		"so_luot_danh_gia": 123,
 		"so_sao": "3",
 		"hinh_dai_dien": "img/phong_nha.jpg",
@@ -320,7 +327,7 @@
 			"Hang động"
 		],
 		"doi_tuong": [
-			"Độc thân",
+			"Cặp đôi",
 			"Bạn bè",
 			"Gia đình"
 		],
@@ -359,6 +366,7 @@
 	{
 		"id": "9",
 		"ten_dia_diem": "Đà Lạt",
+		"mien": "Miền Nam",
 		"so_luot_danh_gia": 200,
 		"so_sao": "3",
 		"hinh_dai_dien": "img/da_lat.jpg",
@@ -397,6 +405,42 @@
 				"so_binh_luan": 10,
 				"ngay_dang": "01/02/2015",
 				"nguoi_dang": "TQBinh"
+			}
+		]
+	},
+
+	{
+		"id": "10",
+		"ten_dia_diem": "Rừng U Minh Thượng",
+		"mien": "Miền Nam",
+		"so_luot_danh_gia": 100,
+		"so_sao": "2",
+		"hinh_dai_dien": "img/U_Minh_Thuong.jpg",
+		"arr_hinh": [
+			"img/U_Minh_Thuong1.jpg",
+			"img/U_Minh_Thuong2.jpg",
+			"img/U_Minh_Thuong3.jpg",
+			"img/U_Minh_Thuong4.jpg",
+			"img/U_Minh_Thuong5.jpg"
+		],
+		"vi_tri_dia_ly": "Kiên Giang",
+		"loai_dia_hinh": [
+			"Rừng"
+		],
+		"doi_tuong": [
+			"Cặp đôi",
+			"Bạn bè"
+		],
+		"mo_ta": "Rừng quốc gia U Minh Thượng là nơi bảo tồn hệ động thực vật quý hiếm lớn nhất ở Kiên Giang với khu rừng tràm ngập mặn diện tích rộng trên 3000 ha. Du lịch rừng U Minh Thượng là kiểu du lịch sinh thái dành cho những bạn yêu thích và muốn hòa mình vào thiên nhiên. Bạn sẽ được ngồi thuyền đi qua các cánh rừng tràm, ngắm các loài cây độc đáo và chim thú trong rừng. Sau khi đi thuyền dạo quanh rừng quốc gia bạn nhớ thưởng thức các món ăn đặc sản ở nơi này như lẩu cá và rau rừng, cá nướng, gỏi cá…Đây là địa điểm tham quan vui chơi ở Kiên Giang cuối cùng mà dulich9.com muốn chia sẻ tới mọi người.",
+		"bai_viet": [
+			{
+				"hinh_anh": "img/user3.jpg",
+				"tieu_de": "Chia sẻ thêm một số địa điểm ở Kiên Giang",
+				"noi_dung": "Trên đây là danh sách các điểm đến du lịch nổi tiếng ở Kiên Giang với nhiều phong cảnh đẹp, món ăn ngon đặc sản dành cho các bạn sắp có chuyến du lịch tới vùng đất này. Chúc bạn có những chuyến vui chơi nhiều kỷ niệm và đừng quên chia sẻ lại chút cảm nhận của bạn về những địa điểm du lịch hot nhất Kiên Giang này nha.",
+				"so_sao": 3,
+				"so_binh_luan": 5,
+				"ngay_dang": "08/03/2017",
+				"nguoi_dang": "Thiên Ân"
 			}
 		]
 	}
