@@ -52,11 +52,11 @@
 		"so_sao": "3",
 		"hinh_dai_dien": "img/vinh_vinh_hy.jpg",
 		"arr_hinh": [
-			"img/vinh_vinh_hy1",
-			"img/vinh_vinh_hy2",
-			"img/vinh_vinh_hy3",
-			"img/vinh_vinh_hy4",
-			"img/vinh_vinh_hy5"
+			"img/vinh_vinh_hy1.jpg",
+			"img/vinh_vinh_hy2.jpg",
+			"img/vinh_vinh_hy3.jpg",
+			"img/vinh_vinh_hy4.jpg",
+			"img/vinh_vinh_hy5.jpg"
 		],
 		"vi_tri_dia_ly": "Ninh Thuận",
 		"loai_dia_hinh": [
