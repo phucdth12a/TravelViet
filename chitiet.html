@@ -361,7 +361,7 @@
               <div id ="navigation-header" class="col-md-12">
                  <div class="col-md-1"></div>
                  <div id="IDTitle-Navigation-header" class="col-md-10">
-                     <span> Địa điểm > <span id="mien">Miền bắc</span></span>
+                     <span style="color:#006633;font-weight: bold;"> Địa điểm > <span id="mien">Miền Bắc</span></span>
                  </div>
                  <div class="col-md-1"></div>
               </div>
@@ -378,9 +378,9 @@
                         <span></span>
                     </div>
                     <div class="share-social">
-                        <span><img src="img/fbshare.png"/></span>
-                        <span><img src="img/ggshare.png"/></span>
-                        <span class="number-rating">22 đánh giá</span>
+                        <span><a href="https://www.facebook.com" target="_blank"><img src="img/fbshare.png"/></a></span>
+                        <span><a href="https://plus.google.com/u/0/" target="_blank"><img src="img/ggshare.png"/></a></span>
+                        <span class="number-rating">10 đánh giá</span>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
@@ -497,9 +497,9 @@
               <div id="IDnoidung" class="col-md-12">
                   <div class="col-md-1"></div>
                   <div class="noidung-diadiem col-md-10">
-                      <span class="title-noidung">Thông tin về VỊNH HẠ LONG </span>
+                      <span style="color:#006633;font-weight: bold;font-size: 20px;" class="title-noidung">Thông tin về VỊNH HẠ LONG </span>
                       <div class="chitiet-diadiem col-md-12">
-                          <span class="col-md-12">vị trí địa lý: tỉnh Quản Ninh</span>
+                          <span class="col-md-12">vị trí địa lý: tỉnh Quảng Ninh</span>
                           <a class="col-md-12" href="https://www.google.com/maps/place/qu%E1%BA%A3ng%20ninh">Hiển thị bản đồ</a>
                           <span class="col-md-12">Loại địa hình: </span>
                           <span class="col-md-12">Đố tượng phù hợp: </span>
@@ -534,8 +534,8 @@
 <!-- Comment -->
                 <div id="IDComment" class="col-md-8">
                     <div class="col-md-12 title-comment">
-                        <p><span class="title">Danh sách bài viết về Vịnh Hạ Long</span>
-                        <span class="vietbaimoi">+ Viết bài mới</span></p>
+                        <p><span class="title">Danh sách bài viết liên quan</span>
+                        <span class="vietbaimoi">+ Thêm bài mới</span></p>
                     </div>
                     <div class="list-comment">
                         <div class="filter-content col-md-12">
@@ -913,7 +913,7 @@
 
                 var noidung = "";
                 if (comments[i].noi_dung.length > 200) {
-                    noidung = cutString(comments[i].noi_dung,200) + '...<a href="#">Xem Thêm</a>';
+                    noidung = cutString(comments[i].noi_dung,200) + '...<a href="#"> xem thêm </a>';
                 } else {
                     noidung = comments[i].noi_dung;
                 }
@@ -978,8 +978,8 @@
 
 
                     $('#IDnoidung .chitiet-diadiem').empty();
-                    var noidung = '<span class="col-md-12">Vị trí địa lý: '+result.vi_tri_dia_ly+'</span>'+
-                    '<a class="col-md-12" href="https://www.google.com/maps/place/'+result.vi_tri_dia_ly+'">Hiển thị bản đồ</a>'+
+                    var noidung = '<span class="col-md-12">Vị trí địa lý: <b>'+result.vi_tri_dia_ly+'</b></span>'+
+                    '<a class="col-md-12" target="_blank" href="https://www.google.com/maps/place/'+result.ten_dia_diem+'">Bản đồ</a>'+
                     '<span class="col-md-12">Loại địa hình: '+loaidiahinh+'</span>'+
                     '<span class="col-md-12">Đối tượng phù hợp: '+doituong+'</span>';
                     $('#IDnoidung .chitiet-diadiem').append(noidung);
