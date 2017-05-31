@@ -923,7 +923,7 @@ body {
     border-bottom-color: rgba(162, 188, 174, 1);
 }
 #title-diadiem .title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -952,7 +952,7 @@ body {
     float: right;
     font-size: 14px;
     font-weight: 100;
-    margin-top: 8px;
+    margin-top: 2px;
 }
 
 #IDComment .author {
@@ -980,7 +980,7 @@ body {
 }
 
 #IDComment .info-comment .result-created .author-name {
-    color: red;
+    color: #0101DF;
 }
 
 #IDComment .header-content-result span {
