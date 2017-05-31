@@ -5,6 +5,7 @@
 		"mien": "Miền Bắc",
 		"so_luot_danh_gia": 100,
 		"so_sao": "4",
+		"ngaydang": "01/01/2017",
 		"hinh_dai_dien": "img/vinh_ha_long.jpg",
 		"arr_hinh": [
 			"img/vinh_ha_long1.jpg",
@@ -30,7 +31,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 5,
 				"ngay_dang": "01/01/2017",
-				"nguoi_dang": "NVNam"
+				"nguoi_dang": "Nguyễn Nam"
 			},
 			{
 				"hinh_anh": "img/user2.jpg",
@@ -39,7 +40,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 10,
 				"ngay_dang": "01/01/2017",
-				"nguoi_dang": "NQPhuc"
+				"nguoi_dang": "Quốc Phục"
 			}
 		]
 	},
@@ -50,6 +51,7 @@
 		"mien": "Miền Trung",
 		"so_luot_danh_gia": 50,
 		"so_sao": "3",
+		"ngaydang": "01/02/2017",
 		"hinh_dai_dien": "img/vinh_vinh_hy.jpg",
 		"arr_hinh": [
 			"img/vinh_vinh_hy1.jpg",
@@ -75,7 +77,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "03/05/2017",
-				"nguoi_dang": "NTAn"
+				"nguoi_dang": "Thiên Ân"
 			},
 			{
 				"hinh_anh": "img/user4.jpg",
@@ -84,7 +86,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 7,
 				"ngay_dang": "05/05/2017",
-				"nguoi_dang": "TQBinh"
+				"nguoi_dang": "Quốc Bình"
 			}
 		]
 	},
@@ -95,13 +97,14 @@
 		"mien": "Miền Nam",
 		"so_luot_danh_gia": 40,
 		"so_sao": "4",
+		"ngaydang": "01/03/2017",
 		"hinh_dai_dien": "img/nam_du.jpg",
 		"arr_hinh": [
-			"img/nam_du1.JPG",
-			"img/nam_du2.JPG",
-			"img/nam_du3.JPG",
-			"img/nam_du4.JPG",
-			"img/nam_du5.JPG"
+			"img/nam_du1.jpg",
+			"img/nam_du2.jpg",
+			"img/nam_du3.jpg",
+			"img/nam_du4.jpg",
+			"img/nam_du5.jpg"
 		],
 		"vi_tri_dia_ly": "Kiên Giang",
 		"loai_dia_hinh": [
@@ -120,7 +123,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "03/02/2016",
-				"nguoi_dang": "DHPhu"
+				"nguoi_dang": "Dương Phú"
 			},
 			{
 				"hinh_anh": "img/user4.jpg",
@@ -129,7 +132,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 10,
 				"ngay_dang": "01/02/2016",
-				"nguoi_dang": "TQBinh"
+				"nguoi_dang": "Trần Bình"
 			}
 		]
 	},
@@ -140,6 +143,7 @@
 		"mien": "Miền Bắc",
 		"so_luot_danh_gia": 80,
 		"so_sao": "5",
+		"ngaydang": "08/03/2017",
 		"hinh_dai_dien": "img/sapa.jpg",
 		"arr_hinh": [
 			"img/sapa1.jpg",
@@ -166,7 +170,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "31/12/2016",
-				"nguoi_dang": "TTBQuyen"
+				"nguoi_dang": "Lam Phương"
 			},
 			{
 				"hinh_anh": "img/user2.jpg",
@@ -175,7 +179,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 1,
 				"ngay_dang": "01/01/2017",
-				"nguoi_dang": "NQPhuc"
+				"nguoi_dang": "Quốc Phục"
 			},
 			{
 				"hinh_anh": "img/user3.jpg",
@@ -184,17 +188,18 @@
 				"so_sao": 2,
 				"so_binh_luan": 2,
 				"ngay_dang": "10/07/2017",
-				"nguoi_dang": "VTAnh"
+				"nguoi_dang": "Vân Anh"
 			}
 		]
 	},
 
 	{
 		"id": "5",
-		"ten_dia_diem": "Phú Quốc",
+		"ten_dia_diem": "Đảo Phú Quốc",
 		"mien": "Miền Nam",
 		"so_luot_danh_gia": 89,
 		"so_sao": "4",
+		"ngaydang": "08/03/2017",
 		"hinh_dai_dien": "img/phu_quoc.jpg",
 		"arr_hinh": [
 			"img/phu_quoc1.jpg",
@@ -221,7 +226,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "31/12/2015",
-				"nguoi_dang": "TTLHuyen"
+				"nguoi_dang": "Xuân Thanh"
 			}
 		]
 	},
@@ -232,6 +237,7 @@
 		"mien": "Miền Trung",
 		"so_luot_danh_gia": 200,
 		"so_sao": "5",
+		"ngaydang": "29/04/2017",
 		"hinh_dai_dien": "img/son_doong.jpg",
 		"arr_hinh": [
 			"img/son_doong1.jpg",
@@ -257,7 +263,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "31/12/2015",
-				"nguoi_dang": "TTLHuyen"
+				"nguoi_dang": "Nguyễn Nam"
 			}
 		]
 	},
@@ -268,6 +274,7 @@
 		"mien": "Miền Trung",
 		"so_luot_danh_gia": 100,
 		"so_sao": "3",
+		"ngaydang": "08/08/2016",
 		"hinh_dai_dien": "img/binh_ba.jpg",
 		"arr_hinh": [
 			"img/binh_ba1.jpg",
@@ -294,7 +301,7 @@
 				"so_sao": 4,
 				"so_binh_luan": 5,
 				"ngay_dang": "06/01/2016",
-				"nguoi_dang": "NTTam"
+				"nguoi_dang": "Thiện Tâm"
 			},
 			{
 				"hinh_anh": "img/user2.jpg",
@@ -303,7 +310,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 10,
 				"ngay_dang": "01/04/2016",
-				"nguoi_dang": "TQPhuc"
+				"nguoi_dang": "Antonio Martial"
 			}
 		]
 	},
@@ -314,6 +321,7 @@
 		"mien": "Miền Trung",
 		"so_luot_danh_gia": 123,
 		"so_sao": "3",
+		"ngaydang": "24/12/2016",
 		"hinh_dai_dien": "img/phong_nha.jpg",
 		"arr_hinh": [
 			"img/phong_nha1.jpg",
@@ -340,7 +348,7 @@
 				"so_sao": "3",
 				"so_binh_luan": 5,
 				"ngay_dang": "16/01/2016",
-				"nguoi_dang": "VTLien"
+				"nguoi_dang": "Marcos Alonso"
 			},
 			{
 				"hinh_anh": "img/user6.jpg",
@@ -349,7 +357,7 @@
 				"so_sao": 2,
 				"so_binh_luan": 10,
 				"ngay_dang": "03/04/2016",
-				"nguoi_dang": "PTTu"
+				"nguoi_dang": "RashFord"
 			},
 			{
 				"hinh_anh": "img/user3.jpg",
@@ -358,7 +366,7 @@
 				"so_sao": 2,
 				"so_binh_luan": 10,
 				"ngay_dang": "04/07/2016",
-				"nguoi_dang": "DTrump"
+				"nguoi_dang": "Ander Herrera"
 			}
 		]
 	},
@@ -369,6 +377,7 @@
 		"mien": "Miền Nam",
 		"so_luot_danh_gia": 200,
 		"so_sao": "3",
+		"ngaydang": "18/05/2017",
 		"hinh_dai_dien": "img/da_lat.jpg",
 		"arr_hinh": [
 			"img/da_lat1.jpg",
@@ -395,7 +404,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 5,
 				"ngay_dang": "03/01/2015",
-				"nguoi_dang": "NTAn"
+				"nguoi_dang": "Mourinho"
 			},
 			{
 				"hinh_anh": "img/user2.jpg",
@@ -404,7 +413,7 @@
 				"so_sao": 3,
 				"so_binh_luan": 10,
 				"ngay_dang": "01/02/2015",
-				"nguoi_dang": "TQBinh"
+				"nguoi_dang": "Quốc Bình"
 			}
 		]
 	},
@@ -415,6 +424,7 @@
 		"mien": "Miền Nam",
 		"so_luot_danh_gia": 100,
 		"so_sao": "2",
+		"ngaydang": "02/05/2017",
 		"hinh_dai_dien": "img/U_Minh_Thuong.jpg",
 		"arr_hinh": [
 			"img/U_Minh_Thuong1.jpg",
