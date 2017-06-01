@@ -986,11 +986,11 @@
                     }
 
 
-                    $('#IDnoidung .chitiet-diadiem').empty();
-                    var noidung = '<div class="col-md-12"> <span> Vị trí địa lý: </span><span style="font-weight: bold;">'+result.vi_tri_dia_ly+'</span></div>'+
-                    '<div class="col-md-12"><a target="_blank" href="https://www.google.com/maps/place/'+result.ten_dia_diem+'">Hiển thị bản đồ</a></div>'+
-                    '<div class="col-md-12" > <span>Địa hình: </span> <span style="font-weight: bold;">'+loaidiahinh+'</span></div>'+
-                    '<div class="col-md-12" > <span>Đối tượng phù hợp: </span> <span style="font-weight: bold;">'+doituong+'</span></div>';
+                   $('#IDnoidung .chitiet-diadiem').empty();
+                    var noidung = '<div class="col-md-12"> <span class="glyphicon glyphicon-flash"></span><span> Vị trí địa lý: </span><span style="font-weight: bold;">'+result.vi_tri_dia_ly+'</span></div>'+
+                    '<div class="col-md-12"><span class="glyphicon glyphicon-globe"></span><a target="_blank" href="https://www.google.com/maps/place/'+result.ten_dia_diem+'"> Hiển thị bản đồ</a></div>'+
+                    '<div class="col-md-12" ><span class="glyphicon glyphicon-road"></span> <span>Địa hình: </span> <span style="font-weight: bold;">'+loaidiahinh+'</span></div>'+
+                    '<div class="col-md-12" ><span class="glyphicon glyphicon-user"></span> <span>Đối tượng phù hợp: </span> <span style="font-weight: bold;">'+doituong+'</span></div>';
                     $('#IDnoidung .chitiet-diadiem').append(noidung);
 
                     mota = result.mo_ta;
