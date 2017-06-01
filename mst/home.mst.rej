@@ -1,0 +1,18 @@
+diff a/mst/home.mst b/mst/home.mst	(rejected hunks)
+@@ -4,13 +4,13 @@
+             <img src="{{hinh_dai_dien}}" />
+             <div class="content-result-item">
+                 <div class="header-content-result">
+-                    <a href="chitiet.html?id={{ id }}" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn xem địa điểm', 'eventAction': 'Click', 'eventLabel': '{{ten_dia_diem}}' });">{{ten_dia_diem}}</a>
++                    <a style="color: rgba(33, 103, 69, 1); font-weight: bold; font-size:20px;" href="chitiet.html?id={{ id }}">{{ten_dia_diem}}</a>
+                     {{{result_rating_html}}}
+                 </div>
+                 <div class="des-result">
+-                    {{mo_ta_ngan_gon}} ... &nbsp<a href="chitiet.html?id={{ id }}" onclick="ga('send', {'hitType': 'event', 'eventCategory': 'Nhấn xem địa điểm', 'eventAction': 'Click', 'eventLabel': '{{ten_dia_diem}}' });">Xem Thêm</a>
++                    {{mo_ta_ngan_gon}} ... &nbsp<a href="chitiet.html?id={{ id }}"> chi tiết </a>
+                 </div>
+-                <div class="result-created">Thông tin đăng ngày 10/04/2017</div>
++                <div class="result-created">Thông tin đăng ngày {{ngaydang}} </div>
+             </div>
+         </div>
+     </div>
