@@ -91,7 +91,7 @@ $(function() {
                     for (var i = jsonData.length - 1; i >= 0; i--) {
                         jsonData[i]["result_rating_html"] = function() {
                             var html = "";
-                            html += "<div class=\"result-rating\">";
+                            html += "<div class=\"result-rating\" title=\"" + this.so_luot_danh_gia + " lượt đánh giá\">";
                             if (this.so_sao <= 5) {
                                 for (var i = this.so_sao; i >= 1; i--) {
                                     html += "<span class=\"fill\"></span>";
