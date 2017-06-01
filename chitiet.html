@@ -987,15 +987,15 @@
 
 
                     $('#IDnoidung .chitiet-diadiem').empty();
-                    var noidung = '<span class="col-md-12">Vị trí địa lý: <b>'+result.vi_tri_dia_ly+'</b></span>'+
-                    '<a class="col-md-12" target="_blank" href="https://www.google.com/maps/place/'+result.ten_dia_diem+'">Bản đồ</a>'+
-                    '<span class="col-md-12">Loại địa hình: '+loaidiahinh+'</span>'+
-                    '<span class="col-md-12">Đối tượng phù hợp: '+doituong+'</span>';
+                    var noidung = '<div class="col-md-12"> <span> Vị trí địa lý: </span><span style="font-weight: bold;">'+result.vi_tri_dia_ly+'</span></div>'+
+                    '<div class="col-md-12"><a target="_blank" href="https://www.google.com/maps/place/'+result.ten_dia_diem+'">Hiển thị bản đồ</a></div>'+
+                    '<div class="col-md-12" > <span>Địa hình: </span> <span style="font-weight: bold;">'+loaidiahinh+'</span></div>'+
+                    '<div class="col-md-12" > <span>Đối tượng phù hợp: </span> <span style="font-weight: bold;">'+doituong+'</span></div>';
                     $('#IDnoidung .chitiet-diadiem').append(noidung);
 
                     mota = result.mo_ta;
                     $('#IDnoidung .mota').empty();
-                    $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm: '+ cutString(mota,400) + '...</span>');
+                    $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm:</span> <span class="col-md-12" style="text-align:justify">'+ cutString(mota,400) + '...</span>');
 
                     loadcomment(result.bai_viet);
                     return;
@@ -1007,7 +1007,7 @@
         $('.button-xemthem').click(function(e) {
             e.preventDefault();
             $('#IDnoidung .mota').empty();
-            $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm: '+mota+'</span>');
+            $('#IDnoidung .mota').append('<span class="col-md-12">Mô tả địa điểm:</span> <span class="col-md-12" style="text-align:justify">'+mota+'</span>');
             $('.button-xemthem').css('display', 'none');
         });
 
